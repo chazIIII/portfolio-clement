@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément / Création de site web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="accueil">
+        <h1>Salut, moi c'est Clément 👋</h1>
+
+        <p>
+            J'apprend le developement web et je crée 
+            des sites vitrines en HTML et CSS.
+        </p>
+        <a href="#projets">Découvrir mes projets</a>
+    </section> 
+    <section id="projets">
+        <h2>Mes projets</h2>
+        <div class="liste-projets">
+        <div class="projet">
+           <h3>ElectroClim</h3>
+           <p>
+            site vitrine ficitf pour une entreprise 
+            spécialisée en électricité et climatisation.
+            <a href="https://chaziiii.github.io/electroclim/" target="_blank">
+                Voir le site 🌐
+            </a>
+           </p>
+        </div>
+        <div class="projet">
+            <h3>Mon Portfolio</h3>
+            <p>Mon site personel créé en HTML et CSS
+                pour présenter mes compétences et mes projets.
+            </p>
+        </div>
+
+        </div>
+        </section>
+
+        <section id="contact">
+            <h2>Me contacter 📩</h2>
+            <p>
+                Vous avez un projet de site internet ?
+                N'hésitez pas à me contacter !
+            </p>
+           <form id="form-contact" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b517d650-c529-40dd-953a-b2e2f07cc370">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer 📩</button>
+
+            </form>
+        </section>
+    
+</body>
+</html>
